@@ -16,11 +16,12 @@ pnpm install
 
 ```bash
 pnpm run dev 
+```
 
-## Environment Variables    
+## Environment Variables
 Ensure you have the following environment variables set in your .env file:
 
-```plaintext
+```bash
 OPENAI_API_KEY=your-api-key
 GOOGLE_GENERATIVE_AI_API_KEY=your-api-key
 ```
