@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@ai-sdk/google':
+        specifier: ^1.1.20
+        version: 1.1.20(zod@3.24.2)
       '@ai-sdk/openai':
         specifier: ^1.2.1
         version: 1.2.1(zod@3.24.2)
@@ -32,6 +35,12 @@ importers:
         version: 5.8.2
 
 packages:
+
+  '@ai-sdk/google@1.1.20':
+    resolution: {integrity: sha512-vsYtmFYy5vQAovWWAqb9XoLZ01lmcfpfxviY8lMV92YwwbLLhYcaPQ4dKaaKo0tSksCWsO2Qehw8bN3eBxmZdA==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
 
   '@ai-sdk/openai@1.2.1':
     resolution: {integrity: sha512-UtVDNrmrKzb3b4T9bnpduXs4FKpWGn+sH5qaFP1mtxOPeYGUF9OoJfGilH3CNfqGAE4QdZh/LT3IV6GHacooGg==}
@@ -2948,6 +2957,12 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
 snapshots:
+
+  '@ai-sdk/google@1.1.20(zod@3.24.2)':
+    dependencies:
+      '@ai-sdk/provider': 1.0.10
+      '@ai-sdk/provider-utils': 2.1.11(zod@3.24.2)
+      zod: 3.24.2
 
   '@ai-sdk/openai@1.2.1(zod@3.24.2)':
     dependencies:
